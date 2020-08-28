@@ -1,0 +1,103 @@
+AKG - SHURE - PROTOOLS - AVID - APOGEE - MACKIE MCU PRO - BEHRINGER - ROLAND - ALESIS - ORANGE - FENDER - MAC - CLASSIC - OVIE - KONTACK 5 - WAVES - SUPERIOR DRUMMER - PRESONUS - JBL - MACKIE BIG KNOB
+Sala acondicionada para Bandas.
+Vasta experiencia en Composición, Arreglos y Producciones Discográficas:
+- Música Infantil 
+- Comedias Musicales
+- Jingles
+- Musicalización para programas de Radio y Televisión
+- Música Gospel
+- Folklore
+- Producción y Dirección de Bandas
+- Producción y Dirección de Solistas
+Nuestra Productora es mucho mas que un Estudio de Grabación.
+Para optimizar las virtudes del músico, JCM Productora cuenta con un espacio acorde a su necesidad con recursos técnicos y humanos para una mejor y mayor performance a favor de su talento y creatividad.
+Nos importa sobremanera el alma y el espíritu del artista, brindándole un ambiente placentero donde pueda disfrutar cada etapa del Proyecto previamente diseñado:
+- Pre-Producción
+- Grabación
+- Edición
+- Mezcla
+- Masterización
+
+
+ <div class="panza">
+            <div id="izquierda">
+                <img src="imagenes/microfono.jpg" alt="">
+                <p>JCM Productora prepara y proyecta cantantes solistas a través de clases dinámicas y personalizadas de Expresión Vocal.<br>
+                        Incluye la grabación profesional de una canción acordada previamente como metodología de enseñanza y crecimiento artístico.</p>
+            </div>
+            <div id="derecha">
+                <img src="imagenes/consola.jpg" alt="">
+                <p>Nuestra Productora es mucho mas que un Estudio de Grabación.
+                    Para optimizar las virtudes del músico, JCM Productora cuenta con un espacio acorde a su necesidad con recursos técnicos y
+                     humanos para una mejor y mayor performance a favor de su talento y creatividad.</p>
+            </div>
+            <div id="abj-izq">
+                <img src="imagenes/estudio3.jpg" alt="">
+                <p>Nos importa sobremanera el alma y el espíritu del artista, brindándole un ambiente placentero donde pueda disfrutar cada etapa del Proyecto previamente diseñado:<br>
+                    - Pre-Producción<br>
+                    - Grabación<br>
+                    - Edición<br>
+                    - Mezcla<br>
+                    - Masterización</p>
+            </div>
+
+            <div id="abj-drc">
+                <img src="imagenes/auris.jpg" alt="">
+                <p>Vasta experiencia en Composición, Arreglos y Producciones Discográficas:<br>
+                    - Música Infantil<br>
+                    - Comedias Musicales<br>
+                    - Jingles<br>
+                    - Musicalización para programas de Radio y Televisión<br>
+                    - Música Gospel<br>
+                    - Folklore<br>
+                    - Producción y Dirección de Bandas<br>
+                    - Producción y Dirección de Solistas</p>
+            </div>
+
+        </div> 
+
+        <section id="artistas">
+            <h2>Sumate a la lista de nuestros queridos artistas</h2>
+
+            <div id="art-izq">
+                    <ul>
+                        <li>Alejandro Vega (Pop Gospel)</li>
+                        <li>Valen Basbus (Pop Gospel)</li>
+                        <li>Silvano Caseres (Pop Gospel)</li>
+                        <li>Raquel Romero (Gospel)</li>
+                        <li>Aire (Pop Rock Gospel)</li>
+                        <li>The Gres (Pop Rock)</li>
+                        <li>Ignacio Espeche (Folklore)</li>
+                        <li>Instituto de las Artes y las Ciencia MEW (Música Infantil)</li>
+                        <li>Comedia Musical (Aventuras en Plaza Tasa)</li>
+                        <li>Mauro Alejandro Ros (Rock Gospel)</li>
+                        <li>Roberto Traiko (Folklore Instrumental)</li>
+                        <li>Alejandro Rodriguez (Clásico Gospel)</li>
+                        <li>Débora Lepiane (Pop Gospel)</li>
+                        <li>Óscar Troilo (Pop Gospel)</li>
+                        
+                    </ul>    
+            </div>
+            <div id="art-drc">
+                    <ul>
+                        <li>Leandro Hengen (Pop Gospel)</li>
+                        <li>Leandro Sifo (Pop)</li>
+                        <li>Iglesia Nueva Esperanza (Pop Gospel)</li>
+                        <li>Iglesia Ríos de Vida (Pop Gospel)</li>
+                        <li>Iglesia Bautista FV (Música de Película)</li>
+                        <li>Comedia Musical (Agencia de Detectives)</li>
+                        <li>Rubén Darío Vázquez (Pop Gospel)</li>
+                        <li>Remanente de Alabanzas (Pop Gospel)</li>
+                        <li>Los Levitas (Folklore)</li>
+                        <li>Le Corb (Pop Rock)</li>
+                        <li>José Palavecino (Melódico Gospel)</li>
+                        <li>Pablo Bedrossian (Pop Melódico Gospel)</li>
+                        <li>Enrique Gomez (Pop Gospel)</li>
+                        <li>Betty Martinez (Gospel)</li>
+                    </ul>    
+              
+            </div>
+
+
+
+#47494A;

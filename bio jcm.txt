@@ -1,0 +1,91 @@
+                    <div class="box">
+                        <div class="comentario">
+                            <div class="thumb " id="avatar"><img src="img/man.svg" alt=""></div>
+                            <div class="texto"><h3>"Excelente Estudio, ambiente ideal para trabajar"</h3><p>-Emanuel Marinelli</p>
+                            </div> 
+                        </div>                       
+                        <div class="comentario">
+                            <div class="texto"><h3>"Fue una experiencia muy bonita"</h3><p>-Isabel Pitra</p></div> 
+                            <div class="thumb" id="avatar"><img src="img/girl.svg" alt=""></div> 
+                        </div> 
+                        <div class="comentario">
+                            <div class="thumb" id="avatar"><img src="img/boy.svg" alt=""></div><div class="texto"><h3>"Lugar increible con muy buen sonido"</h3><p>-Leandro Marsili</p></div>
+                        </div>        
+                    </div>
+                </div>
+
+
+
+
+*
+.main .more_info .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+.main .more_info .box .comentario {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main .more_info .box .comentario::before {
+  content: '';
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background: #599E82;
+  position: absolute;
+  border-radius: 180px;
+  animation-name: efectoZoom;
+  transition: all 0.6s;
+  z-index: -1;
+}
+
+
+@keyframes efectoZoom {
+  from { width: 0; opacity: 0;},
+  to { width: 100%; opacity: 1;}
+}
+.main .more_info .box .comentario .thumb {
+  width: 100px;
+  background: green;
+  border-radius: 180px;
+  border: none;
+}
+.main .more_info .box .comentario .thumb img {
+  width: 100%;
+  vertical-align: top;
+}
+.main .more_info .box .comentario .texto {
+  width: 60%;
+  padding-top: 20px;
+  margin-left: 40px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.main .more_info .box .comentario h3{
+  font-size: 24px;
+  color: #1f1f1f; 
+  font-weight: 300;
+  font-style: italic;
+  opacity: 0;
+  transition: all 2s;
+}
+.main .more_info .box .comentario:hover h3 {
+  opacity: 1
+}
+.main .more_info .box .comentario p {
+  font-weight: 600;
+  margin-top: 10px;
+  float: right;
+}
+.main .more_info .box .comentario:nth-child(2) p {
+  float: left;
+} */

@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background-attachment:fixed;
+}
+.portada {
+    margin: auto;
+    width: 960px;
+    max-width: 1750 ;
+    background: black;
+
+}
+
+body header .portada .logo {
+    width: 300px;
+    margin: auto;
+    display: block;
+
+    
+}
+
+
+.portada nav {
+    background: black;
+   overflow: hidden;
+   margin: 12px, 0px, 0px, opx;
+   text-align: center;
+}
+
+.portada nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+   
+}
+
+.portada nav ul li {
+    float:left;
+}
+
+.portada nav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 20px 20px;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.portada nav ul li a:hover {
+    background: white;
+    color:black;
+}
+
+.main {
+    width: 960px;
+    max-width: 1750px;
+    background: rgb(221, 214, 214);
+    margin:auto;
+    overflow: hidden;
+}
+
+.main .contenidos .one img {
+    width: 960px; 
+    background: rgb(124, 65, 65);
+    float: left;
+}
+
+.main .contenidos .one h2 {
+    width: 960px;
+    display:inline-block;
+    margin:0;
+    background: rgb(221, 214, 214);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Holtwood One SC', serif;
+    padding: 30px 0px;
+}
+
+.main .contenidos .two img {
+    width: 480px;
+    margin: auto;
+    display: block;
+    background: rgb(221, 214, 214);
+    
+}
+
+.contenidos .one:hover img {
+    transition:all .5s ease-in-out;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.contenidos .one:hover img {
+    transition:all .5s ease-in-out;
+    overflow:hidden;
+}

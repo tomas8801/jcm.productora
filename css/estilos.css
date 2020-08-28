@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+
+
+
+html  {
+  overflow-x: hidden;
+  font-size: 65.5%;}
+
+body {
+  width: 100vw;
+  font-family: "Open Sans", Arial, sans-serif;
+  background: #fff; }
+
+p {
+  font-size: 1.2rem;
+<<<<<<< HEAD
+  color: rgb(36, 35, 35);
+  font-weight: 600;
+  line-height: 2.3rem;
+  letter-spacing: 2px;
+=======
+    /* color: rgb(36, 35, 35); */
+  font-weight: 600;
+    /* line-height: 2.3rem; */
+  letter-spacing: 1px;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+
+}
+
+span, strong {
+  color: #599E82;
+}
+
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preloader video {
+  width: 600px;
+}
+
+
+header {
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url("../img/bgnew.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
+<<<<<<< HEAD
+-moz-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
+box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
+  
+=======
+  -moz-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
+  box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+}
+
+.hamburger {
+  position: fixed;
+  top: .2rem;
+  right: .3rem;
+}
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+  background-color: white !important;
+  
+}
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+.hamburger-box {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+header .menu {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+}
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+header .menu a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: "Roboto";
+  transition: all .6s;
+  padding: .3rem 1rem;
+  letter-spacing: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .menu a:hover {
+  color: #e0e0e0;
+  background: rgba(211, 211, 211, 0.2);
+}
+
+header .borde {
+      width: 40%;
+      height: 3px;
+      background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
+      position: relative;
+      top: -10px;
+}
+header .textos {
+  width: 86%;
+  margin: 0 auto;
+  color: #e0e0e0;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;}
+      header .textos  h2 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-family: 'Catamaran', sans-serif;
+        line-height: 5rem;
+        letter-spacing: 16px !important;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+         }
+         header .textos .logo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        header  .textos .logo img {
+          width: 12rem;
+          position: relative;
+          left: -.5rem;
+        }
+        header .textos  h2 span {
+          color: #599E82;
+<<<<<<< HEAD
+          font-family: 'Permanent Marker', cursive;
+=======
+          font-family: 'Oswald', sans-serif;
+          font-weight: bold;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+          font-size: 4.6rem;}
+      header .textos  p {
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 3px;
+        margin-bottom: 2rem;
+        color: #e0e0e0;}
+header .redes-sociales {
+  margin-top: 3rem;
+}
+header .redes-sociales a {
+  display: inline-block;
+  color: #e0e0e0;
+  font-size: 1.7rem;
+  padding:0  3rem;
+}
+header .redes-sociales .facebook:hover { color:   #3b5998;}
+header .redes-sociales .youtube:hover { color:    #bb0000;}
+header .redes-sociales .instagram:hover { color:    #fd9827;}
+
+
+
+/* --- MAIN CONTENT --- */
+
+main {
+  width: 100%;
+}     
+
+main .info {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+main .info .about {
+  padding: 1rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+
+main .caracteristicas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+<<<<<<< HEAD
+  margin-bottom: 8%;
+=======
+  margin: 2rem 0;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+}
+
+/* main .box:nth-child(odd) {
+  border-right:5px solid #599E82 ;
+
+
+}
+main .box:nth-child(2)
+{
+  border-left:5px solid #599E82 ;
+  text-align: right;
+} */
+main .box .icono {
+  padding: 0 3rem;
+  color: #599E82;
+  font-size: 55px;
+  animation: scale 2s infinite;
+  animation-direction: alternate;
+}
+@keyframes scale {
+  0% {
+
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+
+  }
+}
+
+
+
+
+main .box .texto {
+  padding: 1rem;
+  text-align: left;
+}
+main .box .texto h2{
+<<<<<<< HEAD
+  font-size: 2rem;
+=======
+  font-size: 1.7rem;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem;
+<<<<<<< HEAD
+
+}
+main .box .texto h2 span {
+  font-size: 3rem;
+  
+}
+=======
+  letter-spacing: 4px;
+
+}
+
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+main .box .texto p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(36, 35, 35);
+}
+
+
+
+
+/* JCM INFO */
+
+#jcm {
+  width: 100%;
+}
+
+#jcm .imagen {
+  width: 50%;
+  display: none;
+}
+#jcm .imagen img {
+  width: 100%;
+}
+
+#jcm .bio {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+<<<<<<< HEAD
+  font-family: 'montserrat', sans-serif;
+=======
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+  margin: 0 auto;
+  transform: none !important;
+}
+#jcm .bio .top {
+  position: relative;
+}
+
+#jcm .bio .top img {
+  width: 100%;
+}
+#jcm .bio .menuicon {
+  position: absolute;
+  width: 22px;
+  right: 20px;
+  top: 20px;
+}
+#jcm .bio .menuicon span {
+  width: 100%;
+  height: 3px;
+  background: #000;
+  position: relative;
+  display: block;
+  margin-bottom: 6px;
+}
+#jcm .bio .menuicon .s1 {
+  left: -5px;
+}
+#jcm .bio .name {
+  position: absolute;
+  color: #fff;
+  bottom: 10px;
+
+  font-size: 36px;
+  font-weight: 900;
+  opacity: .6;
+  padding: 0 20px;
+}
+#jcm .bio .name span {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+#jcm .bio .about {
+  padding: 2.5rem;
+}
+#jcm .bio .about h2 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+#jcm .bio .about h2 span {
+  font-size: 3rem;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+#jcm .bio .about .border {
+  width: 30px;
+  height: 3px;
+  background: #599E82;
+  border: none;
+  position: absolute;
+  left: 0;
+}
+
+
+
+main .gallery {
+  width: 100%;
+
+}
+main .gallery .carousel {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+main .marcas { 
+  width: 100%;
+  padding: 200px 0;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+main .marcas img {
+  width: 100%;
+  vertical-align: top;
+}
+
+
+footer {
+  width: 100%;
+  background: #1e272e;
+  display: flex;
+  flex-direction: column-reverse;
+}
+footer .contacto {
+  width: 100%;
+}
+
+footer .contacto .form {
+<<<<<<< HEAD
+  width: 86%;
+=======
+  width: 84%;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+<<<<<<< HEAD
+=======
+  margin-top: 1rem;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+}
+footer .contacto .form .form-group {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+<<<<<<< HEAD
+  color: #fff;
+  transition: all 4s;
+}
+footer .contacto .form .form-group input {
+  padding: 5px;
+  outline: none;
+  font-weight: 600;
+=======
+  transition: all 4s;
+  
+}
+footer .contacto .form .form-group label {
+  color: #fff;
+}
+footer .contacto .form .form-group input {
+  padding: 3px;
+  outline: none;
+  font-weight: 600;
+  border-radius: 0;
+
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+
+}
+footer .contacto .form .form-group input.error, textarea.error {
+  border: 1.4px solid red !important;
+}
+footer .contacto .form .form-group input.success, textarea.success {
+  border: 1.4px solid greenyellow;
+}
+footer .contacto .form .form-group textarea {
+<<<<<<< HEAD
+  padding: 5px;
+  min-height: 150px;
+  max-height: 150px;
+  outline: none;
+  font-weight: 600;
+
+}
+footer .contacto .form .form-group .btn {
+  background: #fff;
+=======
+  padding: 3px;
+  min-height: 100px;
+  max-height: 100px;
+  outline: none;
+  font-weight: 600;
+  border-radius: 0;
+
+
+}
+footer .contacto .form .form-group .btn {
+  background: #c2c2c2;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+  font-weight: bold;
+  font-size: 1.4rem;
+
+}
+footer .contacto .form .form-group .btn:hover {
+  color: #000;
+  background: rgb(171,213,164);
+}
+footer .contacto .form .form-group .alert {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+<<<<<<< HEAD
+  top: -5px;
+  display: none;
+  color: #c2c2c2;
+=======
+  top: -8px;
+  display: none;
+  color: #fff;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+  font-size: 1.2rem;
+
+
+}
+
+
+footer .mapa {
+  width: 100%;
+  min-height: 100%;
+}
+footer .mapa iframe {
+  width: 100%;
+  height: 100%;
+
+}
+
+footer .redes-sociales {
+<<<<<<< HEAD
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+=======
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem; 
+  margin: 0 auto;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+}
+footer  .redes-sociales a {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+footer .contacto  .redes-sociales .facebook:hover { color:   #3b5998;}
+footer .contacto  .redes-sociales .youtube:hover { color:    #bb0000;}
+footer .contacto  .redes-sociales .instagram:hover { color:    #fd9827;}
+
+
+
+
+
+footer .copyright {
+  width: 100%;
+  padding: 20px 0;
+  background: linear-gradient(to bottom, rgba(30,39,46,1) 0%, rgba(0,0,0,1) 100%);
+<<<<<<< HEAD
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+footer .copyright p {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 0 20px;
+  color: #fff;
+  font-weight: 600;
+=======
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  text-align: center;
+}
+footer .copyright p {
+  font-size: .9rem;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: bold;
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+
+}
+
+
+<<<<<<< HEAD
+/*
+@media (min-width: 320px) and (max-width: 480px) {
+
+  body {
+    width: 100vw;
+  }
+
+  header .menu {
+    padding: 40px;
+  }
+
+
+
+  .main .info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main .info .about {
+    margin-top:10%;
+  }
+  .main .caracteristicas{
+    margin-top: 30%;
+  }
+  
+  .main .box {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding: 0;
+    max-height: 100px;
+  }
+  .main .box .icono {
+    font-size: 30px;
+    color: #599E82 !important;
+  }
+  .main .more_info {
+    display: flex;
+    justify-content: center;
+
+  }
+  .main .more_info .imagen{
+    display: none;
+  }
+
+  .main .marcas {
+    padding: 50px 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .contacto {
+    width: 100%;
+  }
+  footer .mapa {
+    width: 100%;
+  }
+  footer .mapa iframe {
+    width: 100%;
+    position: static;
+  }
+}
+*/
+/*# sourceMappingURL=estilos.css.map */
+
+=======
+@media only screen and (min-width: 414px) {
+
+header .textos h2 {
+  font-size: 2rem;
+}
+header .textos h2 span {
+  font-size: 5.6rem;
+}
+header .textos p {
+  font-size: 1.4rem;
+}
+header .textos .logo img {
+  width: 15rem;
+}
+header .redes-sociales a {
+  font-size: 2.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
+
+@media only screen and (min-width: 1200px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  #jcm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #jcm .bio {
+      width: 50%;
+  }
+  #jcm .imagen {
+      width: 50%;
+      display: block;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+<<<<<<< HEAD
+}
+=======
+}
+
+
+>>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
