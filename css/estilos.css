@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-<<<<<<< HEAD
-=======
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 
 
 
@@ -19,18 +16,11 @@ body {
   background: #fff; }
 
 p {
-  font-size: 1.2rem;
-<<<<<<< HEAD
-  color: rgb(36, 35, 35);
-  font-weight: 600;
-  line-height: 2.3rem;
-  letter-spacing: 2px;
-=======
+  font-size: 1.4rem;
     /* color: rgb(36, 35, 35); */
   font-weight: 600;
     /* line-height: 2.3rem; */
   letter-spacing: 1px;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 
 }
 
@@ -65,14 +55,8 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
-<<<<<<< HEAD
--moz-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
-  
-=======
   -moz-box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
   box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 }
 
 .hamburger {
@@ -84,21 +68,12 @@ box-shadow: inset 0px 0px 45px 17px rgba(0,0,0,0.62);
   background-color: white !important;
   
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 .hamburger-box {
     position: relative;
     display: inline-block;
     width: 40px;
     height: 24px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 header .menu {
   width: 100%;
   height: 20%;
@@ -107,11 +82,6 @@ header .menu {
   align-items: flex-end;
   margin-bottom: 3rem;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 header .menu a {
   color: #fff;
   font-size: 0.9rem;
@@ -142,7 +112,7 @@ header .textos {
   text-transform: uppercase;
   text-align: center;}
       header .textos  h2 {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         font-weight: 300;
         font-family: 'Catamaran', sans-serif;
         line-height: 5rem;
@@ -163,12 +133,8 @@ header .textos {
         }
         header .textos  h2 span {
           color: #599E82;
-<<<<<<< HEAD
-          font-family: 'Permanent Marker', cursive;
-=======
           font-family: 'Oswald', sans-serif;
           font-weight: bold;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
           font-size: 4.6rem;}
       header .textos  p {
         font-size: 1.1rem;
@@ -220,11 +186,7 @@ main .box {
   display: flex;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
-  margin-bottom: 8%;
-=======
   margin: 2rem 0;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 }
 
 /* main .box:nth-child(odd) {
@@ -265,31 +227,15 @@ main .box .texto {
   text-align: left;
 }
 main .box .texto h2{
-<<<<<<< HEAD
-  font-size: 2rem;
-=======
-  font-size: 1.7rem;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
   font-weight: bold;
   color: rgb(70, 70, 70);
   text-transform: uppercase;
   text-align: center;
   padding: 1rem;
-<<<<<<< HEAD
-
-}
-main .box .texto h2 span {
-  font-size: 3rem;
-  
-}
-=======
   letter-spacing: 4px;
-
 }
 
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 main .box .texto p {
-  font-size: 1.2rem;
   font-weight: 600;
   color: rgb(36, 35, 35);
 }
@@ -315,10 +261,6 @@ main .box .texto p {
   width: 100%;
   background: #fff;
   overflow: hidden;
-<<<<<<< HEAD
-  font-family: 'montserrat', sans-serif;
-=======
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
   margin: 0 auto;
   transform: none !important;
 }
@@ -350,7 +292,6 @@ main .box .texto p {
   position: absolute;
   color: #fff;
   bottom: 10px;
-
   font-size: 36px;
   font-weight: 900;
   opacity: .6;
@@ -374,10 +315,6 @@ main .box .texto p {
 #jcm .bio .about h2 span {
   font-size: 3rem;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 #jcm .bio .about .border {
   width: 30px;
   height: 3px;
@@ -423,20 +360,13 @@ footer .contacto {
 }
 
 footer .contacto .form {
-<<<<<<< HEAD
-  width: 86%;
-=======
   width: 84%;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
-<<<<<<< HEAD
-=======
   margin-top: 1rem;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 }
 footer .contacto .form .form-group {
   width: 100%;
@@ -444,15 +374,6 @@ footer .contacto .form .form-group {
   display: flex;
   flex-direction: column;
   position: relative;
-<<<<<<< HEAD
-  color: #fff;
-  transition: all 4s;
-}
-footer .contacto .form .form-group input {
-  padding: 5px;
-  outline: none;
-  font-weight: 600;
-=======
   transition: all 4s;
   
 }
@@ -465,7 +386,6 @@ footer .contacto .form .form-group input {
   font-weight: 600;
   border-radius: 0;
 
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 
 }
 footer .contacto .form .form-group input.error, textarea.error {
@@ -475,29 +395,17 @@ footer .contacto .form .form-group input.success, textarea.success {
   border: 1.4px solid greenyellow;
 }
 footer .contacto .form .form-group textarea {
-<<<<<<< HEAD
-  padding: 5px;
-  min-height: 150px;
-  max-height: 150px;
-  outline: none;
-  font-weight: 600;
-
-}
-footer .contacto .form .form-group .btn {
-  background: #fff;
-=======
   padding: 3px;
   min-height: 100px;
   max-height: 100px;
   outline: none;
   font-weight: 600;
   border-radius: 0;
-
+  font-size: 1.4rem;
 
 }
 footer .contacto .form .form-group .btn {
   background: #c2c2c2;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
   font-weight: bold;
   font-size: 1.4rem;
 
@@ -510,18 +418,10 @@ footer .contacto .form .form-group .alert {
   width: 100%;
   position: absolute;
   text-align: right;
-<<<<<<< HEAD
-  top: -5px;
-  display: none;
-  color: #c2c2c2;
-=======
   top: -8px;
   display: none;
   color: #fff;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
   font-size: 1.2rem;
-
-
 }
 
 
@@ -536,18 +436,11 @@ footer .mapa iframe {
 }
 
 footer .redes-sociales {
-<<<<<<< HEAD
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding: 1rem 0;
-=======
   width: 90%;
   display: flex;
   justify-content: space-evenly;
   padding-top: 1rem; 
   margin: 0 auto;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 }
 footer  .redes-sociales a {
   display: inline-block;
@@ -567,19 +460,6 @@ footer .copyright {
   width: 100%;
   padding: 20px 0;
   background: linear-gradient(to bottom, rgba(30,39,46,1) 0%, rgba(0,0,0,1) 100%);
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
-footer .copyright p {
-  font-size: 1rem;
-  letter-spacing: 2px;
-  margin: 0 20px;
-  color: #fff;
-  font-weight: 600;
-=======
   /* display: flex; */
   /* flex-direction: row; */
   /* justify-content: center; */
@@ -590,80 +470,11 @@ footer .copyright p {
   letter-spacing: 3px;
   color: #fff;
   font-weight: bold;
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 
 }
 
 
-<<<<<<< HEAD
-/*
-@media (min-width: 320px) and (max-width: 480px) {
-
-  body {
-    width: 100vw;
-  }
-
-  header .menu {
-    padding: 40px;
-  }
-
-
-
-  .main .info{
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .main .info .about {
-    margin-top:10%;
-  }
-  .main .caracteristicas{
-    margin-top: 30%;
-  }
-  
-  .main .box {
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-    padding: 0;
-    max-height: 100px;
-  }
-  .main .box .icono {
-    font-size: 30px;
-    color: #599E82 !important;
-  }
-  .main .more_info {
-    display: flex;
-    justify-content: center;
-
-  }
-  .main .more_info .imagen{
-    display: none;
-  }
-
-  .main .marcas {
-    padding: 50px 0;
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .contacto {
-    width: 100%;
-  }
-  footer .mapa {
-    width: 100%;
-  }
-  footer .mapa iframe {
-    width: 100%;
-    position: static;
-  }
-}
-*/
-/*# sourceMappingURL=estilos.css.map */
-
-=======
-@media only screen and (min-width: 414px) {
+/* @media only screen and (min-width: 414px) {
 
 header .textos h2 {
   font-size: 2rem;
@@ -679,14 +490,27 @@ header .textos .logo img {
 }
 header .redes-sociales a {
   font-size: 2.1rem;
-}
+} */
 
 @media only screen and (min-width: 768px) {
-
+  header .textos h2 {
+    font-size: 2rem;
+  }
+  header .textos h2 span {
+    font-size: 5.6rem;
+  }
+  header .textos p {
+    font-size: 1.6rem;
+  }
+  header .textos .logo img {
+    width: 150px;
+  }
+  header .redes-sociales a {
+    font-size: 2.1rem;
+  } 
 }
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
 
   .hamburger {
     display: none;
@@ -708,10 +532,6 @@ header .redes-sociales a {
   footer {
     flex-direction: row;
   }
-<<<<<<< HEAD
-}
-=======
 }
 
 
->>>>>>> 9fffa2d... mas cambios en el diseño de la pagina
